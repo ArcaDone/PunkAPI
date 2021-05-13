@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cheers</string>
+    <string name="add_beer">insertBeer</string>
+    <string name="beer">beer</string>
+    <string name="more_info">more info</string>
+    <string name="selected_date">Selected Date is : 1%s</string>
+    <string name="select_date">Select Date</string>
+    <string name="selected_date_is">Selected Date is :</string>
+    <string name="start">start</string>
+    <string name="end">end</string>
+    <string name="search">search</string>
+    <string name="after">after</string>
+    <string name="before">before</string>
+    <string name="empty_list_text">Empty list</string>
+    <string name="retry">Retry</string>
+    <string name="error_text">Unable to fetch result, please retry</string>
+    <string name="go">Go</string>
+</resources>

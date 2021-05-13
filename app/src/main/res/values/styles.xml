@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_detail</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="nameStyle" parent="textStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="moreInfoStyle" parent="textStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/iconsTwo</item>
+    </style>
+
+    <style name="searchStyle" parent="textStyle">
+        <item name="android:textColor">@color/colorTextGrey</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="descriptionStyle" parent="searchStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>
